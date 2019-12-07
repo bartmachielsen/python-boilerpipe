@@ -4,7 +4,11 @@
 A python wrapper for [Boilerpipe](http://code.google.com/p/boilerpipe/), an excellent Java library for boilerplate removal and fulltext extraction from HTML pages.
 
 ## NOTE
-This fork contains a prepackaged boilerpipe version that is the latest version from the google repo. This fixes the problem with the getImages function.
+**This fork contains a prepackaged boilerpipe version that is the latest version from the google repo. This fixes the problem with the getImages function.**
+
+``jpype._jclass.java.lang.NoClassDefFoundError: java.lang.NoClassDefFoundError: de/l3s/boilerpipe/sax/ImageExtractor``
+
+All credits for the actual code go to the original repo.
 
 ## Configuration
 
